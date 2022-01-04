@@ -1,0 +1,8 @@
+CVE,DESCRIPTION
+CVE-2016-3169,user_save function called with an explicit category
+CVE-2013-1534,remote user executes arbitrary code via unknown vector
+CVE-2002-0392,chunk-encoded HTTP request received
+CVE-2016-1393,SQL query submitted via url
+CVE-2018-1386,local user executes with root privilege
+CVE-2016-1301,remote user changes password via HTTP request
+CVE-2018-9105,XPC message sent to make a new OpenVPN connection

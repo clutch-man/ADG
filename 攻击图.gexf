@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2021-11-02">
+    <creator>NetworkX 2.5.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <nodes>
+      <node id="CVE-2013-1534" label="CVE-2013-1534" />
+      <node id="B" label="B" />
+      <node id="CVE-2016-3169" label="CVE-2016-3169" />
+      <node id="A" label="A" />
+      <node id="CVE-2002-0392" label="CVE-2002-0392" />
+      <node id="C" label="C" />
+      <node id="CVE-2016-1393" label="CVE-2016-1393" />
+      <node id="D" label="D" />
+      <node id="CVE-2016-1301" label="CVE-2016-1301" />
+      <node id="E" label="E" />
+      <node id="CVE-2018-9105" label="CVE-2018-9105" />
+      <node id="F" label="F" />
+      <node id="CVE-2018-1386" label="CVE-2018-1386" />
+      <node id="D" label="D" />
+    </nodes>
+    <edges>
+      <edge id="0" source="CVE-2013-1534" target="B" />
+      <edge id="1" source="B" target="CVE-2016-3169" />
+      <edge id="2" source="B" target="CVE-2002-0392" />
+      <edge id="3" source="CVE-2016-3169" target="A" />
+      <edge id="4" source="A" target="CVE-2016-1393" />
+      <edge id="5" source="A" target="CVE-2013-1534" />
+      <edge id="6" source="A" target="CVE-2002-0392" />
+      <edge id="7" source="CVE-2002-0392" target="C" />
+      <edge id="8" source="C" target="CVE-2016-3169" />
+      <edge id="9" source="C" target="CVE-2013-1534" />
+      <edge id="10" source="C" target="CVE-2016-1301" />
+      <edge id="11" source="CVE-2016-1393" target="D" />
+      <edge id="12" source="D" target="CVE-2018-9105" />
+      <edge id="13" source="D" target="CVE-2016-1301" />
+      <edge id="14" source="D" target="CVE-2018-1386" />
+      <edge id="15" source="CVE-2016-1301" target="E" />
+      <edge id="16" source="E" target="CVE-2016-1393" />
+      <edge id="17" source="E" target="CVE-2018-9105" />
+      <edge id="18" source="CVE-2018-9105" target="F" />
+      <edge id="19" source="F" target="CVE-2016-1393" />
+      <edge id="20" source="F" target="CVE-2016-1301" />
+      <edge id="21" source="CVE-2018-1386" target="D" />
+      <edge id="22" source="D" target="CVE-2016-1393" />
+      <edge id="23" source="D" target="CVE-2018-9105" />
+      <edge id="24" source="D" target="CVE-2016-1301" />
+    </edges>
+  </graph>
+</gexf>

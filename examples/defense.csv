@@ -1,0 +1,8 @@
+CVE_CATALOG_ID,Defense_ID,Defense_Measures
+CVE-2016-3169,D1,Use an authentication framework or library such as the OWASP ESAPI Authentication feature.
+CVE-2013-1534,D2,Avoid making decisions based on names of resources (e.g. files) if those resources can have alternate names.
+CVE-2002-0392,D3,Avoid making decisions based on names of resources (e.g. files) if those resources can have alternate names.
+CVE-2016-1393,D4,Avoid making decisions based on names of resources (e.g. files) if those resources can have alternate names.
+CVE-2018-1386,D5,Avoid making decisions based on names of resources (e.g. files) if those resources can have alternate names.
+CVE-2016-1301,D6,Avoid making decisions based on names of resources (e.g. files) if those resources can have alternate names.
+CVE-2018-9105,D7,Avoid making decisions based on names of resources (e.g. files) if those resources can have alternate names.
